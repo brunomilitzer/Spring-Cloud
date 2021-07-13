@@ -1,10 +1,11 @@
 # Udemy Course
 
-## Spring Cloud Fundementals
+## Spring Cloud Fundamentals
 
 **_Projects_**
 
-1. [Coupon Service](https://github.com/brunomilitzer/Spring-Cloud/tree/main/couponservice)
+1. [Coupon Service](https://github.com/brunomilitzer/Spring-Cloud/tree/master/couponservice)
+2. [Product Service](https://github.com/brunomilitzer/Spring-Cloud/tree/master/productservice)
 
 Profiles Demo
 
