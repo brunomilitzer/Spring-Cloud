@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
 @Component( value = "couponClient" )
-@FeignClient( "COUPON-SERVICE" )
+@FeignClient( "GATEWAY-SERVICE" )
 public interface CouponClient {
 
     @GetMapping( value = "/couponapi/coupons/{code}" )
