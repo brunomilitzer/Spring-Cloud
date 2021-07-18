@@ -6,6 +6,7 @@
 
 1. [Coupon Service](https://github.com/brunomilitzer/Spring-Cloud/tree/master/couponservice)
 2. [Product Service](https://github.com/brunomilitzer/Spring-Cloud/tree/master/productservice)
+3. [Eureka Server](https://github.com/brunomilitzer/Spring-Cloud/tree/master/eurekaserver)
 
 Profiles Demo
 

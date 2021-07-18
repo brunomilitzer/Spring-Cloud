@@ -1,9 +1,6 @@
 package com.brunomilitzer.springcloud.entities;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.io.Serializable;
 import java.math.BigDecimal;
 
@@ -21,6 +18,9 @@ public class Product implements Serializable {
     private String description;
 
     private BigDecimal price;
+
+    @Transient
+    private String couponCode;
 
     public Long getId() {
 
@@ -60,6 +60,16 @@ public class Product implements Serializable {
     public void setPrice( final BigDecimal price ) {
 
         this.price = price;
+    }
+
+    public String getCouponCode() {
+
+        return this.couponCode;
+    }
+
+    public void setCouponCode( final String code ) {
+
+        this.couponCode = code;
     }
 
 }
